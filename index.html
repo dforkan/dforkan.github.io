@@ -2,18 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home | Microphotography</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="equipment.html">Equipment</a>
-    </div>
-    <div class="container">
-        <h1>Microphotography</h1>
-        <p>Placeholder.</p>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portfolio" class="gallery">
+        <div class="gallery-item">
+            <a href="project1.html">
+                <img src="images/photo1.jpg" alt="Project 1">
+                <div class="overlay">Project 1 Title</div>
+            </a>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name</p>
+    </footer>
 </body>
 </html>
