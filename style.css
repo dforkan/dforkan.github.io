@@ -134,6 +134,27 @@ nav ul li a:hover {
     font-size: 1.5rem;
 }
 
+/* Text Block Section */
+.info-section {
+    background-color: #000000;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.text-block {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-left: 6px none;
+    padding: 30px;
+}
+
+.text-block p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
 /* Footer */
 footer {
     text-align: center;
