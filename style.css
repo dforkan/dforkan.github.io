@@ -165,9 +165,11 @@ nav ul li a:hover {
 }
 
 .image {
-    display: inline-block;
-    width: 100%;
-    height: auto;
+    display: block;
+    width: 1400px;
+    height: 933.333px;
+    object-fit: contain;
+    margin: 0 auto;
     border-radius: 0;
 }
 
