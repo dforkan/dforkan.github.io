@@ -144,7 +144,7 @@ nav ul li a:hover {
 .text-block {
     max-width: 600px;
     margin: 0 auto;
-    background-color: white;
+    background-color: black;
     border-left: 6px none;
     padding: 30px;
 }
