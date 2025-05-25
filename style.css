@@ -168,7 +168,7 @@ nav ul li a:hover {
 
 .image {
     display: inline-block;
-    width: 100%;
+    width: 250%;
     height: auto;
     border-radius: 0;
     box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
