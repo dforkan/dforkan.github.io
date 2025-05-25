@@ -157,21 +157,18 @@ nav ul li a:hover {
 
 /* Images */
 .image-section {
-    display: flex;
-    flex-direction: column;
+    display: block;
     align-items: center;
     padding: 20px;
     text-align: center;
-    margin: 20px auto;
-    max-width: 600px;
+    margin: 0 auto;
 }
 
 .image {
     display: inline-block;
-    width: 250%;
+    width: 100%;
     height: auto;
     border-radius: 0;
-    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
 }
 
 figure {
