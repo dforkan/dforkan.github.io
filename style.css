@@ -164,10 +164,9 @@ nav ul li a:hover {
 }
 
 .image {
-    width: 100%;
-    max-width: 400px;
+    width: auto;
     height: auto;
-    border-radius: 8px;
+    border-radius: 0;
     box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
 }
 
