@@ -100,7 +100,7 @@ nav ul li a:hover {
 
 .hovertext {
     color: white;
-    font-size: 3em;
+    font-size: clamp(1.5rem, 5vw, 3em);
     line-height: 1.2;
     word-wrap: break-word;
     max-width: 90%;
