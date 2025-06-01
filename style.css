@@ -174,7 +174,8 @@ nav ul li a:hover {
     height: auto;
     object-fit: contain;
     margin: 0 auto;
-    border-radius: 0;}
+    border-radius: 0;
+}
 
 figure {
     margin: 0;
@@ -203,11 +204,46 @@ figcaption {
 }
 
 .equipment-page .hero {
-    padding-bottom: 0px;
+    padding-bottom: 0;
+}
+
+.equipment-page figure {
+    margin: 0;
+    padding: 0;
+}
+
+.equipment-page figcaption {
+    margin-top: 5px;
+}
+
+.equipment-page a.image {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.equipment-page #fluorpics {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
+    align-items: start;
+    justify-content: center;
+    grid-template-columns: 30% 30%;
+}
+
+.equipment-page #fluorpics img {
+    display: block;
+    height: 80vh;
+    width: auto;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 .equipment-page .image-section {
-    margin-top: 0px;
+    padding: 10px 0;
+    margin-top: 0;
 }
 
 /* Footer */
